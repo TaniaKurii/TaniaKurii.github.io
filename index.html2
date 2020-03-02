@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td {
+            width: 50px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <!--1-->
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+
+            <td colspan="2"></td>
+
+            <td></td>
+
+        </tr>
+        <tr>
+            <!--2-->
+
+            <td colspan="4"></td>
+
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <!--3-->
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr>
+            <!--4-->
+            <td rowspan="2"></td>
+            <td></td>
+
+            <td></td>
+            <td rowspan="3" colspan="2"></td>
+
+
+        </tr>
+
+        <tr>
+            <!--5-->
+            <td colspan="3" rowspan="2"></td>
+
+
+
+        </tr>
+
+        <tr>
+            <!--6-->
+            <td></td>
+
+
+
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>
