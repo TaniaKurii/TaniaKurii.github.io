@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(233, 218, 170);
+}
+.red{
+    color: rgb(204, 25, 25);
+    font-size: larger;
+}
+.violet{
+    color: rgb(138, 20, 93);
+    text-align: center;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: oblique;
+}
+#Stanislav1{
+    background-color: rgb(23, 194, 194);
+    font-size: 17px;
+    color: rgb(156, 61, 26);
+}
+.pink{
+    color: rgb(226, 21, 147);
+}
+.brown{
+    color: olive;
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.birth{
+    color: rgb(209, 41, 203);
+}
+.school{
+    color: rgb(192, 99, 6);
+
+}
+.university{
+    color: rgb(53, 212, 133);
+}
+.job{
+    color: rgb(97, 9, 9);
+}
+#Ihor1{
+    
+    color: rgb(53, 97, 10);
+    font-size:20px;
+}
