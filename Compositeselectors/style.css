@@ -51,9 +51,7 @@ input:focus {
     background-color: yellow    ;
 }
 
-p::first-line {
-    font-size: 3em;
-}
+
 
 footer > div {
     box-sizing: content-box;
