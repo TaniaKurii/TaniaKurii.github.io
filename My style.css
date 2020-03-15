@@ -11,11 +11,8 @@ body{
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-style: oblique;
 }
-#Stanislav1{
-    background-color: rgb(23, 194, 194);
-    font-size: 17px;
-    color: rgb(156, 61, 26);
-}
+
+
 .pink{
     color: rgb(226, 21, 147);
 }
@@ -39,8 +36,40 @@ body{
 .job{
     color: rgb(97, 9, 9);
 }
+#Tania1{
+    font-size: 25px;
+    color: mediumvioletred;
+}
 #Ihor1{
-    
+    background-color: rgb(243, 200, 119);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(53, 97, 10);
     font-size:20px;
+
+}
+#Stanislav1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20pzpx;
+    color: rgb(156, 61, 26);
+}
+
+a:link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    font-size: 2em;
+}
+
+p:hover {
+    background-color: yellow;
+}
+
+nav {
+    background-color: yellow;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
 }
