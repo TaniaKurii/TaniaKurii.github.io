@@ -10,6 +10,7 @@ body{
     text-align: center;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      font-style: oblique;
+    
 }
 
 
@@ -22,6 +23,9 @@ body{
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+}
+section{
+    font-size:19px;
 }
 .birth{
     color: rgb(209, 41, 203);
@@ -36,23 +40,37 @@ body{
 .job{
     color: rgb(97, 9, 9);
 }
-#Tania1{
-    font-size: 25px;
-    color: mediumvioletred;
-}
+
 #Ihor1{
     background-color: rgb(243, 200, 119);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(53, 97, 10);
-    font-size:20px;
-
+    color: rgb(31, 61, 2);
+    font-size:15px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+} 
+    div p:nth-child(odd){
+     background-color: rgb(245, 108, 11);   
+ }
+     div p:nth-child(even){
+      background-color: darkgoldenrod;
 }
+ 
+
 #Stanislav1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20pzpx;
     color: rgb(156, 61, 26);
 }
+  div1>p::first-letter{
+    color: rgb(231, 12, 12);
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
 
+}
+
+  
 a:link {
     text-decoration: underline;
     cursor: pointer;
