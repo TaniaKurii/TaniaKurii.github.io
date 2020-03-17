@@ -5,6 +5,7 @@ header{
     font-size: 18px;
     text-align: left;
     font-family: Lobster;
+    
 }
 .TK1{
     color: rgb(204, 25, 25);
@@ -40,6 +41,7 @@ section{
     font-size:18px;
     background: linear-gradient(360deg,rgb(162, 177, 79),rgb(134, 160, 19));
     font-family: Economica;
+    display: block;
 
 }
 .birth{
@@ -60,14 +62,12 @@ section{
   
     font-family:Actor;
     color: rgb(31, 61, 2);
-    font-size:19px;
-    
-   
+    font-size:19px;  
 } 
-    div p:nth-child(odd){
+    div#Ihor1 p:nth-child(odd){
      background-color: rgb(245, 108, 11);   
  }
-     div p:nth-child(even){
+     div#Ihor1 p:nth-child(even){
       background-color: darkgoldenrod;
 }
  
@@ -75,13 +75,13 @@ section{
 #Stanislav1{
     font-family: Indie Flower;
     font-size: 20pzpx;
-    color: rgb(156, 61, 26);
+    color: rgb(170, 106, 11);
     font-weight: bold;
-    background:linear-gradient(to right, blue, yellow);
+    background:linear-gradient(to right,yellow , blue);
     
 }
   h3::first-letter{
-    color: rgb(231, 12, 12);
+    color: rgb(16, 180, 24);
     font-size: 30px;
     font-style: italic;
     
