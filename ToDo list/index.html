@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bad+Script">
+</head>
+<body>
+    <div id="main" class="header">
+        <h2>To Do List</h2>
+        <input type="text" id="myInput" placeholder="New Task...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+        <ul id="myUL">
+          <li>Organize a birthday party</li>
+          <li>Finish reading the book</li>
+          <li>Practise in JavaScript</li>
+          <li>Go for a walk with baby</li>
+          <li>Buy a new car</li>
+        </ul>
+        <div id="buttons">
+
+        <button type="button" id="clear-list" onclick="removeAll()">Clear List</button>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+html{
+    height: 100%;
+}
+body {
+    margin: 30px auto;
+    min-width: 100px;
+    max-width: 50%;
+    background-image: linear-gradient(to bottom,#BA5370,#F4E2D8);
+    
+  }
+  * {
+    box-sizing: border-box;
+  }
+  h1{
+    font-family: Bad Script;
+  }
+    .header {
+   
+        padding: 20px 20px;
+        color: white;
+        text-shadow:1px 1px 2px black, 0 0 25px rgb(165, 62, 117);
+        text-align: center;
+        background-image: linear-gradient(to bottom,#C9FFBF,#FFAFBD);
+      }
+      
+      #todoitem {
+        font-size: 1.2em;
+        width: 100%;
+        font-family: Bad Script;
+        background-color: rgb(255, 255, 255);
+        
+      }
+      #btnAdd{
+          
+        font-size: 1.2em;
+        width: 20%;
+        margin-left: 547px;
+        cursor: pointer;
+        color: rgb(235, 41, 225);
+        background-color: rgb(220, 245, 233);
+      }
+      #btnAdd:hover {
+        background-color: rgb(238, 141, 233);
+      }
+      p{
+        color: #68134d;
+        border-color: rgb(231, 10, 165);
+        border-style: groove;
+        border-width: 1px;
+        width: 60%;
+        margin-left: 22%;
+        padding: 6px;
+        text-align: center;
+        border-radius: 20px;
+        font-size: 1.2em;
+        font-family: Bad Script;
+        font-weight: bold;
+      }
+        p:hover {
+            background-color: rgb(236, 206, 225);
+            font-size: larger;
+            font-family: Bad Script;
+        }
