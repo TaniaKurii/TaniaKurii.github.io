@@ -1,8 +1,14 @@
-btnAdd.addEventListener("click", addTodoItem, false);
+
+  btnAdd.addEventListener("click", addTodoItem, false);
+todoitem.addEventListener("keydown", addTodoItem, false);
+btnSave.addEventListener("click", saveTodoList, false);
 
 var todoItems = [];
 
 function addTodoItem(e) {
+    if ((e.type == "keydown") && (e.keyCode != 13)) {
+        return;
+    }
     if (todoitem.value.length < 1) {
         return;
     }
@@ -33,4 +39,9 @@ function todoItemRemove(e) {
     }
 }
 
-  
+function saveTodoList(e) {
+    if (todoItems.length != 0) {
+        localStorage.setItem("todolist", JSON.stringify(todoItems));
+        window.alert("To-Do List has been saved");
+    }
+}

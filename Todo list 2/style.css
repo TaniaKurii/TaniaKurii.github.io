@@ -1,60 +1,95 @@
-html{
-    height: 100%;
-}
 body {
-    margin: 30px auto;
-    min-width: 100px;
-    max-width: 50%;
-    background-image: linear-gradient(to bottom,#BA5370,#F4E2D8);
-    
+  margin: 10px auto;
+  min-width: 100px;
+  max-width: 50%;
+  background-image: linear-gradient(to bottom,#BA5370,#F4E2D8);
+  
   }
   * {
     box-sizing: border-box;
   }
+  section {
+    margin: 0px auto;
+    padding: 50px;
+    display: inline-block;
+    margin-left: 88px;
+    align-items: center;
+    border: 5px solid rgb(194, 21, 122);
+    border-radius: 15px;
+    background-image: linear-gradient(to right,#C9FFBF,#FFAFBD);
+    width: 500px;
+    min-height: 500px;
+    
+    
+}
   h1{
     font-family: Bad Script;
   }
     .header {
-   
-        padding: 20px 20px;
+     
+      border: 5px solid rgb(194, 21, 122);
+      border-radius: 15px;
+      margin-left: 88px;
+        align-items: center;
+        width: 500px;
+        padding: 10px 10px;
         color: white;
         text-shadow:1px 1px 2px black, 0 0 25px rgb(165, 62, 117);
         text-align: center;
         background-image: linear-gradient(to bottom,#C9FFBF,#FFAFBD);
+     
       }
+
       
       #todoitem {
+        margin-right: 120px;
         font-size: 1.2em;
         width: 100%;
         font-family: Bad Script;
         background-color: rgb(255, 255, 255);
         
       }
+      #todoitem:hover{
+        background-color: rgb(211, 232, 233);
+      }
       #btnAdd{
-          
+        margin: 10px;
         font-size: 1.2em;
-        width: 20%;
-        margin-left: 547px;
+        width: 100%;
+        margin-left: 0px;
         cursor: pointer;
         color: rgb(235, 41, 225);
-        background-color: rgb(220, 245, 233);
+        background-color: rgb(238, 215, 237);
       }
       #btnAdd:hover {
-        background-color: rgb(238, 141, 233);
+        background-color: rgb(211, 232, 233);
+      }
+      #btnSave{
+       
+        font-size: 1.2em;
+        width: 100%;
+        margin-left: 0px;
+        cursor: pointer;
+        color: rgb(235, 41, 225);
+        background-color: rgb(238, 215, 237);
+      }
+      #btnSave:hover {
+        background-color: rgb(211, 232, 233);
       }
       p{
         color: #68134d;
         border-color: rgb(231, 10, 165);
         border-style: groove;
         border-width: 1px;
-        width: 60%;
-        margin-left: 22%;
+        width: 100%;
+        margin-left: 0%;
         padding: 6px;
         text-align: center;
         border-radius: 20px;
         font-size: 1.2em;
         font-family: Bad Script;
         font-weight: bold;
+        
       }
         p:hover {
             background-color: rgb(236, 206, 225);
