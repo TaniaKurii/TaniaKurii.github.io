@@ -1,0 +1,66 @@
+
+body{
+    background-image: linear-gradient(to right, #bbd2c5,#536976);
+}
+
+#result {
+    position: relative;
+    float: right;
+    width: 950px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: -200px ;
+    margin-right: 20px;
+
+    
+}
+#choosecurrency{
+    margin-top: 150px;
+    margin-left: 100px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#date{
+padding-top: 20px;
+padding-bottom: 10px;
+margin-left: 100px;
+font-size: 25px;
+font-weight: bolder;
+}
+#currency{
+    margin-left: 80px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: rgb(220, 235, 228);
+
+}
+#sdate{
+    margin-left: 30px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(220, 235, 228);
+}
+#edate{
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(220, 235, 228);
+}
+#btnCalc{
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 100px;
+    padding: 7px 50px 7px 50px;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: rgb(220, 235, 228);
+}
+#btnCalc:hover{
+    background-color: rgb(117, 180, 231);
+}
+
+
+
